@@ -1,10 +1,5 @@
 ﻿using QuickProfit.Common;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace QuickProfit
 {
@@ -14,8 +9,12 @@ namespace QuickProfit
         {
 
         }
-
-        protected void btnLogin_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Handel User Registration
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        protected void BtnLogin_Click(object sender, EventArgs e)
         {
             try
             {

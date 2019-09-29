@@ -38,7 +38,7 @@
             <label for="txtPhone">You must have an Mobile Number</label>
             <asp:TextBox  ID="txtPhone" runat="server" TextMode="Phone" CssClass="form-control" placeholder="Enter Phone No." required></asp:TextBox>
             <br />
-            <asp:Button ID="btnLogin" Text="Signup" runat="server"  Class="btn btn-primary" OnClick="btnLogin_Click" />
+            <asp:Button ID="btnLogin" Text="Signup" runat="server"  Class="btn btn-primary" OnClick="BtnLogin_Click" />
             <a class="loginText" href="/">Already have account?</a>
             <br />
             <br />
