@@ -1,0 +1,12 @@
+﻿body {
+    background-image:url('../image/background-Quick-Profit-5.jpg');
+    font-family:Calibri;
+}
+.login {
+    max-width:300px;
+    margin-left:30%;
+    margin-top:5%;
+}
+.loginText {
+    margin-left:10%;
+}
