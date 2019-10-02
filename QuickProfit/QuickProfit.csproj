@@ -79,6 +79,9 @@
     <Content Include="image\background-Quick-Profit.jpg" />
     <Content Include="Registration.aspx" />
     <Content Include="Static\custom.css" />
+    <Content Include="Static\newLayout.css" />
+    <Content Include="Static\style.css" />
+    <Content Include="Static\style.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
