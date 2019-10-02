@@ -71,6 +71,7 @@
   <ItemGroup>
     <Content Include="Dashboard.aspx" />
     <Content Include="default.aspx" />
+    <Content Include="Downlines.aspx" />
     <Content Include="Global.asax" />
     <Content Include="image\background-Quick-Profit-1.jpg" />
     <Content Include="image\background-Quick-Profit-2.jpg" />
@@ -96,6 +97,13 @@
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Downlines.aspx.cs">
+      <DependentUpon>Downlines.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Downlines.aspx.designer.cs">
+      <DependentUpon>Downlines.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

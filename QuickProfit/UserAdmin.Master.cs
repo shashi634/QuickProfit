@@ -11,7 +11,7 @@ namespace QuickProfit
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            ltrlname.Text = "Shashi Shanker Singh (1234565487466)";
         }
     }
 }
