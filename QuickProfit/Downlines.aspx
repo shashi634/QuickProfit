@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UserAdmin.Master" AutoEventWireup="true" CodeBehind="Downlines.aspx.cs" Inherits="QuickProfit.Downlines" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UserAdmin.Master" Async="true" AutoEventWireup="true" CodeBehind="Downlines.aspx.cs" Inherits="QuickProfit.Downlines" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>

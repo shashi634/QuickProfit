@@ -69,6 +69,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admino\default.aspx" />
     <Content Include="Dashboard.aspx" />
     <Content Include="default.aspx" />
     <Content Include="Downlines.aspx" />
@@ -85,6 +86,23 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admino\AdminoMaster.Master.cs">
+      <DependentUpon>AdminoMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admino\AdminoMaster.Master.designer.cs">
+      <DependentUpon>AdminoMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admino\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admino\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\AuthenticateUsers.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Common\DataBaseConnectionRoot.cs" />
     <Compile Include="Common\UserTypes.cs" />
     <Compile Include="Dashboard.aspx.cs">
@@ -128,6 +146,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admino\AdminoMaster.Master" />
     <None Include="packages.config" />
     <Content Include="UserAdmin.Master" />
     <None Include="Web.Debug.config">

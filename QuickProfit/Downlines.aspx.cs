@@ -1,9 +1,5 @@
 ﻿using QuickProfit.Common;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
 using System.Web.UI.WebControls;
 
 namespace QuickProfit
@@ -12,10 +8,9 @@ namespace QuickProfit
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack) {
-                UsersList.DataSource = DataBaseConnectionRoot.Instance.SelectQueryExecuter("select * from users");
-                UsersList.DataBind();
-            }
+            if (IsPostBack) return;
+            UsersList.DataSource = DataBaseConnectionRoot.Instance.SelectQueryExecuter("select * from users");
+            UsersList.DataBind();
         }
         protected void users_PageIndexChanging(object sender, GridViewPageEventArgs e)
         {
