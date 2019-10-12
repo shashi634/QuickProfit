@@ -114,7 +114,6 @@
     <Content Include="Admino\dist\js\pages\dashboard2.js" />
     <Content Include="Admino\dist\js\pages\dashboard3.js" />
     <Content Include="Admino\logout.aspx" />
-    <Content Include="Admino\newPage.aspx" />
     <Content Include="Admino\plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.css" />
     <Content Include="Admino\plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.min.css" />
     <Content Include="Admino\plugins\bootstrap-colorpicker\js\bootstrap-colorpicker.js" />
@@ -1579,13 +1578,6 @@
     </Compile>
     <Compile Include="Admino\logout.aspx.designer.cs">
       <DependentUpon>logout.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Admino\newPage.aspx.cs">
-      <DependentUpon>newPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admino\newPage.aspx.designer.cs">
-      <DependentUpon>newPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Common\AuthenticateUsers.cs">
       <SubType>ASPXCodeBehind</SubType>
