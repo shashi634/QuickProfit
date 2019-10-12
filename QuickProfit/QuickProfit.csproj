@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admino\default.aspx" />
+    <Content Include="Admino\logout.aspx" />
     <Content Include="Dashboard.aspx" />
     <Content Include="default.aspx" />
     <Content Include="Downlines.aspx" />
@@ -99,6 +100,13 @@
     </Compile>
     <Compile Include="Admino\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admino\logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admino\logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
     </Compile>
     <Compile Include="Common\AuthenticateUsers.cs">
       <SubType>ASPXCodeBehind</SubType>

@@ -8,7 +8,15 @@ namespace QuickProfit
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            if (!IsPostBack) {
+                if (Session["qpadminSession"] != null) {
+                    Response.Redirect("/admino");
+                }
+                if (Session["qpuserSession"] != null)
+                {
+                    Response.Redirect("Dashboard.aspx");
+                }
+            }
         }
 
         protected void btnLogin_Click(object sender, EventArgs e)

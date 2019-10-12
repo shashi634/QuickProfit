@@ -37,11 +37,8 @@
                                 alt="User picture">
                         </div>
                         <div class="user-info">
-                            <span class="user-name">Jhon
-              <strong>Smith</strong>
-                            </span>
+                            <asp:Label ID="userName" class="user-name" runat="server" Text=""></asp:Label>
                             <span class="user-role">Level</span>
-
                         </div>
                     </div>
 
@@ -125,9 +122,10 @@
                         <i class="fa fa-cog"></i>
                         <span class="badge-sonar"></span>
                     </a>
-                    <a href="#">
+                    <a href="/admino/logout.aspx">
                         <i class="fa fa-power-off"></i>
                     </a>
+
                 </div>
             </nav>
 
